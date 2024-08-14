@@ -3,4 +3,4 @@ from django.contrib.auth.decorators import login_required
 
 @login_required
 def dashboard(request):
-    return HttpResponse("Hola, mundo!")
+    return HttpResponse("YOU ARE IN!")
